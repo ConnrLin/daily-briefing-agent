@@ -1,0 +1,443 @@
+{
+  "briefing_date": "2026-05-15",
+  "generation_timestamp": "2026-05-23T11:49:50.817036+00:00",
+  "word_count": 242,
+  "estimated_seconds": 96.8,
+  "estimation_method": "word_count / 2.5 words_per_second (TTS at 150 wpm)",
+  "target_seconds": 75,
+  "audio_range_seconds": [
+    60,
+    90
+  ],
+  "sections": [
+    {
+      "name": "opening",
+      "char_start": 0,
+      "char_end": 146,
+      "covered_event_ids": [
+        "news_001"
+      ]
+    },
+    {
+      "name": "cobalt-payments-launch",
+      "char_start": 146,
+      "char_end": 493,
+      "covered_event_ids": [
+        "cal_002",
+        "em_002",
+        "cal_004",
+        "em_001",
+        "cal_008"
+      ]
+    },
+    {
+      "name": "personal",
+      "char_start": 493,
+      "char_end": 674,
+      "covered_event_ids": [
+        "cal_006",
+        "cal_007"
+      ]
+    },
+    {
+      "name": "payments-infrastructure",
+      "char_start": 674,
+      "char_end": 846,
+      "covered_event_ids": [
+        "em_009",
+        "news_005"
+      ]
+    },
+    {
+      "name": "fintech-regulation",
+      "char_start": 846,
+      "char_end": 1036,
+      "covered_event_ids": [
+        "cal_009",
+        "em_011"
+      ]
+    },
+    {
+      "name": "action-item",
+      "char_start": 1036,
+      "char_end": 1343,
+      "covered_event_ids": [
+        "em_016",
+        "em_013",
+        "em_020",
+        "em_003"
+      ]
+    },
+    {
+      "name": "closing",
+      "char_start": 1343,
+      "char_end": 1471,
+      "covered_event_ids": []
+    }
+  ],
+  "covered_calendar_ids": [
+    "cal_002",
+    "cal_004",
+    "cal_006",
+    "cal_007",
+    "cal_008",
+    "cal_009"
+  ],
+  "covered_email_ids": [
+    "em_001",
+    "em_002",
+    "em_003",
+    "em_009",
+    "em_011",
+    "em_013",
+    "em_016",
+    "em_020"
+  ],
+  "covered_news_ids": [
+    "news_001",
+    "news_005"
+  ],
+  "excluded_items": [
+    {
+      "id": "em_004",
+      "source": "email",
+      "title": "Notion doc update: Q2 Roadmap — Payments",
+      "reason": "Automated Notion notification — Priya's edits are likely related to the 1:1 agenda already covered in em_002.",
+      "excluded_by": "filter_agent"
+    },
+    {
+      "id": "em_005",
+      "source": "email",
+      "title": "LinkedIn profile views digest",
+      "reason": "Automated promotional digest — not actionable.",
+      "excluded_by": "filter_agent"
+    },
+    {
+      "id": "em_012",
+      "source": "email",
+      "title": "Recruiter outreach — Head of Product at stealth AI startup",
+      "reason": "Unsolicited recruiter outreach — no relevance to tracked entities or interests.",
+      "excluded_by": "filter_agent"
+    },
+    {
+      "id": "em_015",
+      "source": "email",
+      "title": "Slack daily digest",
+      "reason": "Automated Slack digest — Jordan will check Slack directly.",
+      "excluded_by": "filter_agent"
+    },
+    {
+      "id": "em_018",
+      "source": "email",
+      "title": "Stanford Class of 2014 reunion planning",
+      "reason": "Mass alumni email — not time-sensitive, no tracked entity relevance.",
+      "excluded_by": "filter_agent"
+    },
+    {
+      "id": "em_019",
+      "source": "email",
+      "title": "Bitcoin breaks $200,000",
+      "reason": "Blocked topic: crypto price movement. No tracked entity override applies.",
+      "excluded_by": "filter_agent"
+    },
+    {
+      "id": "news_008",
+      "source": "news",
+      "title": "Bitcoin crosses $200,000 for the first time on heavy ETF inflows",
+      "reason": "Crypto price movement — blocked topic, no tracked entity override.",
+      "excluded_by": "filter_agent"
+    },
+    {
+      "id": "news_012",
+      "source": "news",
+      "title": "Apple sets WWDC 2026 for June 8-12",
+      "reason": "General tech event announcement — no direct relevance to fintech, payments, or tracked entities.",
+      "excluded_by": "filter_agent"
+    },
+    {
+      "id": "news_015",
+      "source": "news",
+      "title": "Google Cloud us-east-1 outage affects multiple SaaS providers",
+      "reason": "Outage already resolved — no ongoing impact. Would include if Cobalt's infrastructure were affected.",
+      "excluded_by": "filter_agent"
+    },
+    {
+      "id": "news_016",
+      "source": "news",
+      "title": "OpenAI o5 sets new state of the art on reasoning benchmarks",
+      "reason": "Pure AI benchmark news — low weight interest tag and no fintech application angle.",
+      "excluded_by": "filter_agent"
+    },
+    {
+      "id": "news_017",
+      "source": "news",
+      "title": "Vercel introduces Fluid Compute pricing tier",
+      "reason": "Infrastructure pricing update — tangential to user's core interests.",
+      "excluded_by": "filter_agent"
+    },
+    {
+      "id": "news_018",
+      "source": "news",
+      "title": "PostgreSQL 18 released with native vector indexing improvements",
+      "reason": "Database release — relevant to engineering teams but not to a PM's morning briefing.",
+      "excluded_by": "filter_agent"
+    },
+    {
+      "id": "news_024",
+      "source": "news",
+      "title": "OpenAI signs deal with Walmart to deploy retail agents in stores",
+      "reason": "Retail AI deployment — no fintech or payments relevance.",
+      "excluded_by": "filter_agent"
+    },
+    {
+      "id": "news_006",
+      "source": "news",
+      "title": "Lakers eliminated in Game 7 after late collapse",
+      "reason": "Blocked source: ESPN",
+      "excluded_by": "filter_agent"
+    },
+    {
+      "id": "news_007",
+      "source": "news",
+      "title": "Taylor Swift announces 12th studio album, 'Reprise'",
+      "reason": "Blocked source: Variety",
+      "excluded_by": "filter_agent"
+    },
+    {
+      "id": "news_019",
+      "source": "news",
+      "title": "Marvel announces 'Avengers: Reckoning' cast at Cannes",
+      "reason": "Blocked source: Variety",
+      "excluded_by": "filter_agent"
+    },
+    {
+      "id": "news_020",
+      "source": "news",
+      "title": "Saudi PIF acquires gaming studio Embracer for $4.5B",
+      "reason": "Blocked source: GamesIndustry.biz",
+      "excluded_by": "filter_agent"
+    },
+    {
+      "id": "news_023",
+      "source": "news",
+      "title": "WMO confirms 2025 was hottest year on record",
+      "reason": "Blocked topic pattern in title",
+      "excluded_by": "filter_agent"
+    },
+    {
+      "id": "news_025",
+      "source": "news",
+      "title": "Snowflake Q1 earnings beat on AI workload growth",
+      "reason": "Blocked topic pattern in title",
+      "excluded_by": "filter_agent"
+    },
+    {
+      "id": "news_026",
+      "source": "news",
+      "title": "Salesforce announces 1,500 layoffs as part of AI restructuring",
+      "reason": "Blocked topic pattern in title",
+      "excluded_by": "filter_agent"
+    },
+    {
+      "id": "news_029",
+      "source": "news",
+      "title": "Manchester United wins FA Cup in extra time",
+      "reason": "Blocked source: BBC Sport",
+      "excluded_by": "filter_agent"
+    },
+    {
+      "id": "news_030",
+      "source": "news",
+      "title": "New treatment shows 60% reduction in long Covid symptoms in Phase 3 trial",
+      "reason": "Blocked topic pattern in title",
+      "excluded_by": "filter_agent"
+    },
+    {
+      "id": "news_002",
+      "source": "news",
+      "title": "EU publishes final PSD3 text; SCA exemption thresholds raised, new fraud-sharing rules",
+      "reason": "below ranking budget or topic capacity",
+      "excluded_by": "ranking_agent"
+    },
+    {
+      "id": "news_014",
+      "source": "news",
+      "title": "FedNow transaction volume hits record 50M transactions in April",
+      "reason": "below ranking budget or topic capacity",
+      "excluded_by": "ranking_agent"
+    },
+    {
+      "id": "news_028",
+      "source": "news",
+      "title": "DOJ files antitrust suit against Visa over debit network practices",
+      "reason": "below ranking budget or topic capacity",
+      "excluded_by": "ranking_agent"
+    },
+    {
+      "id": "news_021",
+      "source": "news",
+      "title": "EU AI Act enforcement begins for high-risk AI systems",
+      "reason": "below ranking budget or topic capacity",
+      "excluded_by": "ranking_agent"
+    },
+    {
+      "id": "em_008",
+      "source": "email",
+      "title": "Maya Chen — call at 1pm for Mom's birthday plans",
+      "reason": "below ranking budget or topic capacity",
+      "excluded_by": "ranking_agent"
+    },
+    {
+      "id": "cal_011",
+      "source": "calendar",
+      "title": "Personal appointment",
+      "reason": "below ranking budget or topic capacity",
+      "excluded_by": "ranking_agent"
+    },
+    {
+      "id": "news_014",
+      "source": "news",
+      "title": "FedNow transaction volume hits record 50M transactions in April",
+      "reason": "in ranking candidates but omitted by writing agent (word budget)",
+      "excluded_by": "writing_agent"
+    },
+    {
+      "id": "news_021",
+      "source": "news",
+      "title": "EU AI Act enforcement begins for high-risk AI systems",
+      "reason": "in ranking candidates but omitted by writing agent (word budget)",
+      "excluded_by": "writing_agent"
+    },
+    {
+      "id": "news_004",
+      "source": "news",
+      "title": "Stripe launches Issuing API in five new markets including Brazil and India",
+      "reason": "in ranking candidates but omitted by writing agent (word budget)",
+      "excluded_by": "writing_agent"
+    },
+    {
+      "id": "em_007",
+      "source": "email",
+      "title": "Stratechery: platform fees in fintech — mentions Cobalt and Stripe",
+      "reason": "in ranking candidates but omitted by writing agent (word budget)",
+      "excluded_by": "writing_agent"
+    },
+    {
+      "id": "news_002",
+      "source": "news",
+      "title": "EU publishes final PSD3 text; SCA exemption thresholds raised, new fraud-sharing rules",
+      "reason": "in ranking candidates but omitted by writing agent (word budget)",
+      "excluded_by": "writing_agent"
+    },
+    {
+      "id": "em_008",
+      "source": "email",
+      "title": "Maya Chen — call at 1pm for Mom's birthday plans",
+      "reason": "in ranking candidates but omitted by writing agent (word budget)",
+      "excluded_by": "writing_agent"
+    },
+    {
+      "id": "news_028",
+      "source": "news",
+      "title": "DOJ files antitrust suit against Visa over debit network practices",
+      "reason": "in ranking candidates but omitted by writing agent (word budget)",
+      "excluded_by": "writing_agent"
+    },
+    {
+      "id": "cal_011",
+      "source": "calendar",
+      "title": "Personal appointment",
+      "reason": "in ranking candidates but omitted by writing agent (word budget)",
+      "excluded_by": "writing_agent"
+    }
+  ],
+  "validation": {
+    "passed": false,
+    "issues": [
+      {
+        "severity": "error",
+        "check": "word_count_too_long",
+        "message": "Briefing is 242 words (96.8s) — exceeds maximum 225 words (90s). Remove P2 content and compress P1 topics to one sentence each."
+      },
+      {
+        "severity": "warning",
+        "check": "opening_not_varied",
+        "message": "Opening too similar to a recent session: 'Your entire day orbits one thing: Cobalt's payments platform…'. Change the opening hook."
+      },
+      {
+        "severity": "warning",
+        "check": "factual_inaccuracy",
+        "message": "The briefing says 'pulling GA forward two weeks' but the platform GA was already announced publicly today. Priya's ask is about pulling the payments API GA timeline forward — conflating the public GA announcement with the API GA timeline is misleading."
+      },
+      {
+        "severity": "warning",
+        "check": "factual_inaccuracy",
+        "message": "The Stratechery piece by Ben Thompson on interchange compression (em_007) is omitted entirely — it's P1 but relevant framing for both the board prep and the Stripe lunch."
+      },
+      {
+        "severity": "warning",
+        "check": "factual_inaccuracy",
+        "message": "The briefing says Stripe's Issuing discussion is at 'lunch' tomorrow but omits the time (12 PM) and location (Souvla), which would be useful for a morning briefing."
+      },
+      {
+        "severity": "warning",
+        "check": "tts_flow",
+        "message": "The sentence starting 'Raise both with legal at the three PM compliance sync, where Rahul covers the final PSD Three text' is dense — it packs two distinct topics (Plaid legal risk and PSD3 review) into one clause, which could sound rushed when read aloud."
+      },
+      {
+        "severity": "warning",
+        "check": "tts_flow",
+        "message": "The sentence 'Read his annotations beforehand because SCA threshold changes hit Cobalt's checkout flow' follows immediately and the pronoun 'his' requires the listener to track back to 'Rahul' from the previous sentence — slightly ambiguous in audio."
+      },
+      {
+        "severity": "warning",
+        "check": "tts_flow",
+        "message": "'Approve PR forty-four twenty-one, the USD-to-JPY rounding fix, before it lingers' — 'before it lingers' is slightly awkward phrasing; 'before it sits too long' or similar would sound more natural spoken aloud."
+      },
+      {
+        "severity": "warning",
+        "check": "p0_coverage",
+        "message": "The PSD3 compliance sync at 3 PM (cal_009) is mentioned but not explicitly called out as a calendar event with its own time — it's embedded in the Plaid paragraph, which could cause Jordan to miss that it's a separate meeting."
+      },
+      {
+        "severity": "warning",
+        "check": "p0_coverage",
+        "message": "The Stratechery piece (em_007) is not mentioned at all — while P1, the narration hint flags it as useful for both the board narrative and the Stripe lunch, making it worth a brief mention."
+      },
+      {
+        "severity": "warning",
+        "check": "p0_coverage",
+        "message": "The news about Stripe expanding Issuing to five new markets including Brazil and India (news_004) is not mentioned — it directly contextualizes tomorrow's lunch conversation."
+      },
+      {
+        "severity": "warning",
+        "check": "opening_variety",
+        "message": "The opening 'Your entire day orbits one thing' is structurally similar to the recent dramatic/declarative openings ('The PSD3 draft leaked overnight', 'Two hard deadlines by two PM'). All three lead with a bold framing statement. Consider a more conversational or varied entry point."
+      }
+    ]
+  },
+  "pipeline_stats": {
+    "filter_candidates": {
+      "calendar": 11,
+      "email": 14,
+      "news": 14
+    },
+    "filter_excluded": {
+      "calendar": 0,
+      "email": 6,
+      "news": 16
+    },
+    "graph_events": 39,
+    "ranked_topics": 5,
+    "ranking_skipped": [
+      "news_002",
+      "news_014",
+      "news_028",
+      "news_021",
+      "em_008",
+      "cal_011"
+    ],
+    "writing_covered": 16,
+    "writing_omitted": 8
+  }
+}

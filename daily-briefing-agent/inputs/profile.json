@@ -1,0 +1,44 @@
+{
+  "user": {
+    "name": "Jordan Chen",
+    "role": "Senior Product Manager",
+    "company": "Cobalt Labs",
+    "team": "Payments Platform",
+    "timezone": "America/Los_Angeles",
+    "wake_time_local": "07:30"
+  },
+  "interests": [
+    "AI and large language models, especially product applications (not pure research benchmarks)",
+    "fintech regulation in the US and EU",
+    "developer tools, API design, and platform engineering",
+    "product analytics, experimentation, and growth",
+    "anything about the Cobalt Labs payments product launch"
+  ],
+  "not_interested": [
+    "celebrity and entertainment news",
+    "day-to-day cryptocurrency price movements — but DO surface crypto regulation or enforcement actions",
+    "sports scores and league standings"
+  ],
+  "tracked_entities": [
+    {"name": "Cobalt Labs", "reason": "my company — always include"},
+    {"name": "Stripe", "reason": "key partner, we co-build infra"},
+    {"name": "Plaid", "reason": "core integration vendor — operational issues affect us"},
+    {"name": "Lyra Finance", "reason": "main competitor, watch closely"},
+    {"name": "Maya Chen", "reason": "my sister — anything mentioning her goes in"}
+  ],
+  "tone": {
+    "style": "warm but efficient, like a thoughtful chief of staff",
+    "rules": [
+      "never use jargon I would not use myself in a one-on-one",
+      "do not pad with hedge words like 'just', 'kind of', 'I think'",
+      "be specific with numbers but read them naturally (say 'twelve percent', not '12%')",
+      "do not start with 'Good morning' every day — vary the opening"
+    ]
+  },
+  "audio_length_seconds": {
+    "min": 60,
+    "max": 90,
+    "target": 75
+  },
+  "delivery_notes": "This is read aloud by TTS at the start of my day. I cannot see the text — assume zero visual context."
+}

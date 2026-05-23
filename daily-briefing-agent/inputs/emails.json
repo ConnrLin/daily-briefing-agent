@@ -1,0 +1,186 @@
+{
+  "window_start": "2026-05-14T07:30:00-07:00",
+  "window_end": "2026-05-15T07:30:00-07:00",
+  "emails": [
+    {
+      "id": "em_001",
+      "from": {"name": "Alex Wong", "email": "alex@cobaltlabs.com"},
+      "to": ["jordan@cobaltlabs.com"],
+      "subject": "Board deck — need your eyes on payments revenue slides before 2pm Friday",
+      "received_at": "2026-05-15T06:42:00-07:00",
+      "summary": "CEO asks Jordan to review slides 8-14 of the Q1 board deck before their 2pm prep. Flags the ARR projection chart as the most important one.",
+      "labels": ["primary", "from-ceo"]
+    },
+    {
+      "id": "em_002",
+      "from": {"name": "Priya Sharma", "email": "priya@cobaltlabs.com"},
+      "to": ["jordan@cobaltlabs.com"],
+      "subject": "Agenda for our 1:1",
+      "received_at": "2026-05-15T06:15:00-07:00",
+      "summary": "Priya wants to discuss the payments API GA timeline and whether we can pull it forward two weeks. Asks Jordan to come with a recommendation.",
+      "labels": ["primary"]
+    },
+    {
+      "id": "em_003",
+      "from": {"name": "Sam Reyes", "email": "sam.reyes@stripe.com"},
+      "to": ["jordan@cobaltlabs.com"],
+      "subject": "Looking forward to lunch tomorrow",
+      "received_at": "2026-05-14T18:22:00-07:00",
+      "summary": "Sam confirms 12pm at Souvla and notes he is bringing Jess Park (new partner team lead at Stripe). Hints they want to talk about extending the integration to Stripe Issuing.",
+      "labels": ["primary", "external"]
+    },
+    {
+      "id": "em_004",
+      "from": {"name": "Notion", "email": "no-reply@notion.so"},
+      "to": ["jordan@cobaltlabs.com"],
+      "subject": "Doc updated: Q2 Roadmap — Payments",
+      "received_at": "2026-05-14T21:03:00-07:00",
+      "summary": "Automated notification: Priya edited the roadmap doc.",
+      "labels": ["notifications", "automated"]
+    },
+    {
+      "id": "em_005",
+      "from": {"name": "LinkedIn", "email": "notifications@linkedin.com"},
+      "to": ["jordan@cobaltlabs.com"],
+      "subject": "5 people viewed your profile this week",
+      "received_at": "2026-05-15T04:10:00-07:00",
+      "summary": "LinkedIn weekly profile views digest.",
+      "labels": ["promotions", "automated"]
+    },
+    {
+      "id": "em_006",
+      "from": {"name": "AWS Billing", "email": "no-reply@aws.amazon.com"},
+      "to": ["jordan@cobaltlabs.com", "finance@cobaltlabs.com"],
+      "subject": "Your AWS bill increased 23% this month",
+      "received_at": "2026-05-14T23:45:00-07:00",
+      "summary": "AWS bill projection for May is 23% higher than April, driven by RDS and Bedrock usage. Finance is CC'd.",
+      "labels": ["notifications"]
+    },
+    {
+      "id": "em_007",
+      "from": {"name": "Stratechery (Ben Thompson)", "email": "ben@stratechery.com"},
+      "to": ["jordan@cobaltlabs.com"],
+      "subject": "Daily Update: The new shape of platform fees in fintech",
+      "received_at": "2026-05-15T05:30:00-07:00",
+      "summary": "Long-form analysis of how interchange compression is reshaping platform fee models. Mentions Cobalt Labs and Stripe as examples in the third paragraph.",
+      "labels": ["newsletters"]
+    },
+    {
+      "id": "em_008",
+      "from": {"name": "Maya Chen", "email": "maya.chen@gmail.com"},
+      "to": ["jordan@cobaltlabs.com"],
+      "subject": "free at 1?",
+      "received_at": "2026-05-14T22:11:00-07:00",
+      "summary": "Maya wants a quick call at 1pm to lock in Mom's surprise birthday plans for next weekend. Mentions she already booked the restaurant tentatively.",
+      "labels": ["primary", "personal"]
+    },
+    {
+      "id": "em_009",
+      "from": {"name": "Plaid Partner Relations", "email": "partners@plaid.com"},
+      "to": ["jordan@cobaltlabs.com", "infra@cobaltlabs.com"],
+      "subject": "ACTION REQUIRED: credential rotation by May 20",
+      "received_at": "2026-05-14T16:48:00-07:00",
+      "summary": "Plaid is requiring all partners to rotate API credentials by 2026-05-20. After that date, unrotated keys will be revoked. Infra is CC'd but Jordan is the listed owner.",
+      "labels": ["primary", "action-required"]
+    },
+    {
+      "id": "em_010",
+      "from": {"name": "Hacker News Digest", "email": "digest@hackernewsletter.com"},
+      "to": ["jordan@cobaltlabs.com"],
+      "subject": "Top 10 stories on HN this week",
+      "received_at": "2026-05-15T03:00:00-07:00",
+      "summary": "Weekly digest of trending HN stories. Includes one Cobalt Labs Show HN that hit #1.",
+      "labels": ["newsletters"]
+    },
+    {
+      "id": "em_011",
+      "from": {"name": "Rahul Mehta", "email": "rahul@cobaltlabs.com"},
+      "to": ["jordan@cobaltlabs.com", "legal@cobaltlabs.com"],
+      "subject": "PSD3 final text dropped overnight — please read before 3pm sync",
+      "received_at": "2026-05-15T05:55:00-07:00",
+      "summary": "The EU published the final PSD3 text overnight. Material changes to SCA exemption thresholds and a new fraud-data-sharing requirement that affects our checkout flow. Rahul has annotated the key sections in the linked doc.",
+      "labels": ["primary", "action-required"]
+    },
+    {
+      "id": "em_012",
+      "from": {"name": "Megan @ TalentForge", "email": "megan@talentforge.io"},
+      "to": ["jordan@cobaltlabs.com"],
+      "subject": "Exciting Head of Product role at a Series B AI startup",
+      "received_at": "2026-05-14T14:30:00-07:00",
+      "summary": "Recruiter outreach about a Head of Product role at a stealth AI startup.",
+      "labels": ["promotions", "external"]
+    },
+    {
+      "id": "em_013",
+      "from": {"name": "Cobalt Support", "email": "support@cobaltlabs.com"},
+      "to": ["jordan@cobaltlabs.com", "product-team@cobaltlabs.com"],
+      "subject": "Escalation: enterprise customer complaint re: onboarding flow",
+      "received_at": "2026-05-14T19:14:00-07:00",
+      "summary": "A top-20 enterprise customer (Vertex Capital) has escalated repeated drop-off in the KYC step of onboarding. Support requests product input by Monday.",
+      "labels": ["primary"]
+    },
+    {
+      "id": "em_014",
+      "from": {"name": "Dana Liu", "email": "dana@cobaltlabs.com"},
+      "to": ["all-payments@cobaltlabs.com"],
+      "subject": "Re: Re: Re: offsite venue suggestions",
+      "received_at": "2026-05-14T20:55:00-07:00",
+      "summary": "15-person team thread debating offsite venues. Dana suggests Tahoe, Marcus pushes back on cost, others chime in.",
+      "labels": ["primary", "group-thread"]
+    },
+    {
+      "id": "em_015",
+      "from": {"name": "Slack", "email": "no-reply@slack.com"},
+      "to": ["jordan@cobaltlabs.com"],
+      "subject": "Your daily digest from Cobalt Labs Slack",
+      "received_at": "2026-05-15T07:00:00-07:00",
+      "summary": "Slack daily digest of unread messages across 12 channels.",
+      "labels": ["notifications", "automated"]
+    },
+    {
+      "id": "em_016",
+      "from": {"name": "GitHub", "email": "notifications@github.com"},
+      "to": ["jordan@cobaltlabs.com"],
+      "subject": "PR review requested: fix payments rounding on USD-to-JPY conversion (#4421)",
+      "received_at": "2026-05-15T01:22:00-07:00",
+      "summary": "Engineering opened a PR fixing a rounding bug that caused a 1-cent discrepancy on certain JPY conversions. Reviewer requested from Jordan as PM owner.",
+      "labels": ["notifications"]
+    },
+    {
+      "id": "em_017",
+      "from": {"name": "Cobalt People Ops", "email": "people@cobaltlabs.com"},
+      "to": ["all-sf@cobaltlabs.com"],
+      "subject": "Friday social drinks @ 5pm — Maple Room",
+      "received_at": "2026-05-14T17:30:00-07:00",
+      "summary": "Reminder about Friday social drinks in the office at 5pm.",
+      "labels": ["notifications"]
+    },
+    {
+      "id": "em_018",
+      "from": {"name": "Sarah Park", "email": "sarah.park@stanford.edu"},
+      "to": ["alumni-2014@stanford.edu"],
+      "subject": "Class of 2014 reunion planning — anyone going?",
+      "received_at": "2026-05-14T11:08:00-07:00",
+      "summary": "Mass email to the class alumni list about reunion planning for fall 2026.",
+      "labels": ["promotions", "mass-email"]
+    },
+    {
+      "id": "em_019",
+      "from": {"name": "Bloomberg Alerts", "email": "alerts@bloomberg.com"},
+      "to": ["jordan@cobaltlabs.com"],
+      "subject": "Bitcoin breaks $200,000 for the first time",
+      "received_at": "2026-05-15T02:33:00-07:00",
+      "summary": "BTC crossed $200k overnight on heavy spot ETF inflows.",
+      "labels": ["newsletters"]
+    },
+    {
+      "id": "em_020",
+      "from": {"name": "Sutter Health", "email": "appointments@sutterhealth.org"},
+      "to": ["jordan@cobaltlabs.com"],
+      "subject": "Appointment confirmation for May 15, 5:00 PM",
+      "received_at": "2026-05-14T15:00:00-07:00",
+      "summary": "Confirmation of personal medical appointment at 5pm today.",
+      "labels": ["primary", "personal"]
+    }
+  ]
+}

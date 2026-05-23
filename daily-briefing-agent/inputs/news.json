@@ -1,0 +1,245 @@
+{
+  "generated_at": "2026-05-15T07:00:00-07:00",
+  "items": [
+    {
+      "id": "news_001",
+      "source": "TechCrunch",
+      "title": "Cobalt Labs payments platform exits beta with $4B in transaction volume",
+      "url": "https://techcrunch.com/2026/05/15/cobalt-labs-payments-beta",
+      "published_at": "2026-05-15T05:00:00-07:00",
+      "summary": "Cobalt Labs announced general availability of its payments platform after a six-month beta. The company says it processed $4B in volume during beta with partners including Stripe."
+    },
+    {
+      "id": "news_002",
+      "source": "Reuters",
+      "title": "EU publishes final PSD3 text; SCA exemption thresholds raised, new fraud-sharing rules",
+      "url": "https://reuters.com/2026/05/15/eu-psd3-final-text",
+      "published_at": "2026-05-15T01:30:00-07:00",
+      "summary": "The European Commission released the final PSD3 text overnight. Notable changes include raised strong customer authentication thresholds and a new mandatory fraud-data-sharing scheme among PSPs. Implementation deadline is 2027."
+    },
+    {
+      "id": "news_003",
+      "source": "Bloomberg",
+      "title": "Lyra Finance raises $80M Series C led by Sequoia at $1.2B valuation",
+      "url": "https://bloomberg.com/2026/05/14/lyra-finance-series-c",
+      "published_at": "2026-05-14T14:20:00-07:00",
+      "summary": "Lyra Finance, a fintech competitor focused on cross-border payments, raised $80M in a Series C led by Sequoia Capital. The round values Lyra at $1.2B."
+    },
+    {
+      "id": "news_004",
+      "source": "The Verge",
+      "title": "Stripe launches Issuing API in five new markets including Brazil and India",
+      "url": "https://theverge.com/2026/05/14/stripe-issuing-expansion",
+      "published_at": "2026-05-14T09:00:00-07:00",
+      "summary": "Stripe expanded its Issuing product to five additional markets. Brazil and India support both virtual and physical card issuance."
+    },
+    {
+      "id": "news_005",
+      "source": "Wall Street Journal",
+      "title": "Plaid faces class-action lawsuit over alleged data-sharing practices",
+      "url": "https://wsj.com/2026/05/14/plaid-class-action",
+      "published_at": "2026-05-14T17:45:00-07:00",
+      "summary": "Plaid is the subject of a new class-action suit alleging that consumer banking data was shared with third parties beyond stated terms. Plaid denies the claims."
+    },
+    {
+      "id": "news_006",
+      "source": "ESPN",
+      "title": "Lakers eliminated in Game 7 after late collapse",
+      "url": "https://espn.com/2026/05/14/lakers-eliminated",
+      "published_at": "2026-05-14T22:30:00-07:00",
+      "summary": "The Lakers were eliminated from the playoffs after losing Game 7 by six points."
+    },
+    {
+      "id": "news_007",
+      "source": "Variety",
+      "title": "Taylor Swift announces 12th studio album, 'Reprise'",
+      "url": "https://variety.com/2026/05/14/taylor-swift-reprise",
+      "published_at": "2026-05-14T15:00:00-07:00",
+      "summary": "Taylor Swift announced her 12th studio album, due October 2026."
+    },
+    {
+      "id": "news_008",
+      "source": "CoinDesk",
+      "title": "Bitcoin crosses $200,000 for the first time on heavy ETF inflows",
+      "url": "https://coindesk.com/2026/05/15/btc-200k",
+      "published_at": "2026-05-15T02:00:00-07:00",
+      "summary": "Bitcoin briefly traded above $200,000 overnight as US spot Bitcoin ETF inflows hit a six-week high."
+    },
+    {
+      "id": "news_009",
+      "source": "Reuters",
+      "title": "SEC charges crypto exchange Helios with offering unregistered securities",
+      "url": "https://reuters.com/2026/05/14/sec-helios-charges",
+      "published_at": "2026-05-14T13:15:00-07:00",
+      "summary": "The SEC filed charges against crypto exchange Helios for offering unregistered securities. Helios said it will contest the charges."
+    },
+    {
+      "id": "news_010",
+      "source": "Anthropic Newsroom",
+      "title": "Anthropic releases Claude 5.0 with 2M-token context window",
+      "url": "https://anthropic.com/news/claude-5",
+      "published_at": "2026-05-14T08:00:00-07:00",
+      "summary": "Anthropic released Claude 5.0, featuring a 2M-token context window and improved tool-use reliability. Pricing remains unchanged from Claude 4.7."
+    },
+    {
+      "id": "news_011",
+      "source": "GitHub Blog",
+      "title": "GitHub Copilot launches agent mode in public preview",
+      "url": "https://github.blog/2026/05/14/copilot-agent-mode",
+      "published_at": "2026-05-14T10:00:00-07:00",
+      "summary": "GitHub announced public preview of Copilot's agent mode, which can autonomously edit multiple files and run tests. Available to all paid users."
+    },
+    {
+      "id": "news_012",
+      "source": "Apple Newsroom",
+      "title": "Apple sets WWDC 2026 for June 8-12",
+      "url": "https://apple.com/newsroom/2026/05/wwdc",
+      "published_at": "2026-05-14T08:30:00-07:00",
+      "summary": "Apple announced WWDC 2026 will run June 8-12, online and in-person at Apple Park."
+    },
+    {
+      "id": "news_013",
+      "source": "OpenAI",
+      "title": "OpenAI announces Operator-2 with 50% fewer hallucinations on agent benchmarks",
+      "url": "https://openai.com/blog/operator-2",
+      "published_at": "2026-05-14T12:00:00-07:00",
+      "summary": "OpenAI released Operator-2, an agent model the company says shows a 50% reduction in hallucinations on the AgentBench suite versus Operator-1."
+    },
+    {
+      "id": "news_014",
+      "source": "American Banker",
+      "title": "FedNow transaction volume hits record 50M transactions in April",
+      "url": "https://americanbanker.com/2026/05/14/fednow-volume",
+      "published_at": "2026-05-14T11:00:00-07:00",
+      "summary": "The Federal Reserve's FedNow instant payments service processed a record 50 million transactions in April, up 38% from March."
+    },
+    {
+      "id": "news_015",
+      "source": "TechCrunch",
+      "title": "Google Cloud us-east-1 outage affects multiple SaaS providers",
+      "url": "https://techcrunch.com/2026/05/14/gcp-outage",
+      "published_at": "2026-05-14T20:00:00-07:00",
+      "summary": "A two-hour outage in Google Cloud's us-east-1 region affected services including Snowflake and Notion. Resolved by 7pm PT."
+    },
+    {
+      "id": "news_016",
+      "source": "OpenAI",
+      "title": "OpenAI o5 sets new state of the art on reasoning benchmarks",
+      "url": "https://openai.com/blog/o5-reasoning",
+      "published_at": "2026-05-14T09:30:00-07:00",
+      "summary": "OpenAI's o5 reasoning model achieves a new SOTA on AIME 2026 and GPQA benchmarks."
+    },
+    {
+      "id": "news_017",
+      "source": "Vercel Blog",
+      "title": "Vercel introduces Fluid Compute pricing tier",
+      "url": "https://vercel.com/blog/fluid-compute",
+      "published_at": "2026-05-14T07:00:00-07:00",
+      "summary": "Vercel announced a new pricing tier that bills only for active CPU time, claiming up to 70% savings on agentic workloads."
+    },
+    {
+      "id": "news_018",
+      "source": "PostgreSQL.org",
+      "title": "PostgreSQL 18 released with native vector indexing improvements",
+      "url": "https://postgresql.org/news/pg18-release",
+      "published_at": "2026-05-14T06:00:00-07:00",
+      "summary": "PostgreSQL 18 ships with improved pgvector integration and a new asynchronous I/O subsystem."
+    },
+    {
+      "id": "news_019",
+      "source": "Variety",
+      "title": "Marvel announces 'Avengers: Reckoning' cast at Cannes",
+      "url": "https://variety.com/2026/05/14/avengers-reckoning",
+      "published_at": "2026-05-14T16:00:00-07:00",
+      "summary": "Marvel revealed the cast for 'Avengers: Reckoning' at the Cannes Film Festival."
+    },
+    {
+      "id": "news_020",
+      "source": "GamesIndustry.biz",
+      "title": "Saudi PIF acquires gaming studio Embracer for $4.5B",
+      "url": "https://gamesindustry.biz/2026/05/14/pif-embracer",
+      "published_at": "2026-05-14T10:30:00-07:00",
+      "summary": "Saudi Arabia's Public Investment Fund agreed to acquire Embracer Group for $4.5B."
+    },
+    {
+      "id": "news_021",
+      "source": "Politico",
+      "title": "EU AI Act enforcement begins for high-risk AI systems",
+      "url": "https://politico.eu/2026/05/14/ai-act-enforcement",
+      "published_at": "2026-05-14T13:00:00-07:00",
+      "summary": "The EU AI Act's enforcement provisions for high-risk AI systems came into force, with fines up to 7% of global revenue. Financial services AI is in scope."
+    },
+    {
+      "id": "news_022",
+      "source": "The Information",
+      "title": "Lyra Finance hires former Coinbase CFO as new president",
+      "url": "https://theinformation.com/2026/05/14/lyra-hires-cfo",
+      "published_at": "2026-05-14T18:00:00-07:00",
+      "summary": "Lyra Finance announced it has hired Coinbase's former CFO as president, signaling a push into US enterprise sales."
+    },
+    {
+      "id": "news_023",
+      "source": "BBC",
+      "title": "WMO confirms 2025 was hottest year on record",
+      "url": "https://bbc.com/2026/05/14/wmo-2025-hottest",
+      "published_at": "2026-05-14T09:00:00-07:00",
+      "summary": "The World Meteorological Organization confirmed 2025 was the hottest year on record, 1.62°C above pre-industrial levels."
+    },
+    {
+      "id": "news_024",
+      "source": "Bloomberg",
+      "title": "OpenAI signs deal with Walmart to deploy retail agents in stores",
+      "url": "https://bloomberg.com/2026/05/14/openai-walmart",
+      "published_at": "2026-05-14T11:30:00-07:00",
+      "summary": "OpenAI announced a multi-year deal with Walmart to deploy in-store AI agents for inventory and customer assistance, starting with 200 US stores."
+    },
+    {
+      "id": "news_025",
+      "source": "Reuters",
+      "title": "Snowflake Q1 earnings beat on AI workload growth",
+      "url": "https://reuters.com/2026/05/14/snowflake-earnings",
+      "published_at": "2026-05-14T13:30:00-07:00",
+      "summary": "Snowflake beat Q1 estimates on revenue and EPS, citing growth from AI-related workloads."
+    },
+    {
+      "id": "news_026",
+      "source": "CNBC",
+      "title": "Salesforce announces 1,500 layoffs as part of AI restructuring",
+      "url": "https://cnbc.com/2026/05/14/salesforce-layoffs",
+      "published_at": "2026-05-14T15:30:00-07:00",
+      "summary": "Salesforce announced 1,500 layoffs, primarily in sales and support roles. The company said it is reallocating headcount to AI product teams."
+    },
+    {
+      "id": "news_027",
+      "source": "TechCrunch",
+      "title": "Cursor raises $200M Series B at $4B valuation",
+      "url": "https://techcrunch.com/2026/05/14/cursor-series-b",
+      "published_at": "2026-05-14T08:00:00-07:00",
+      "summary": "AI coding tool Cursor raised a $200M Series B led by Thrive Capital at a $4B valuation."
+    },
+    {
+      "id": "news_028",
+      "source": "Reuters",
+      "title": "DOJ files antitrust suit against Visa over debit network practices",
+      "url": "https://reuters.com/2026/05/14/doj-visa-antitrust",
+      "published_at": "2026-05-14T14:00:00-07:00",
+      "summary": "The US Department of Justice filed an antitrust lawsuit against Visa, alleging the company illegally monopolized debit card networks."
+    },
+    {
+      "id": "news_029",
+      "source": "BBC Sport",
+      "title": "Manchester United wins FA Cup in extra time",
+      "url": "https://bbc.com/sport/2026/05/14/man-utd-fa-cup",
+      "published_at": "2026-05-14T16:30:00-07:00",
+      "summary": "Manchester United won the FA Cup 2-1 in extra time over Manchester City."
+    },
+    {
+      "id": "news_030",
+      "source": "STAT News",
+      "title": "New treatment shows 60% reduction in long Covid symptoms in Phase 3 trial",
+      "url": "https://statnews.com/2026/05/14/long-covid-treatment",
+      "published_at": "2026-05-14T12:30:00-07:00",
+      "summary": "A Phase 3 trial of a new monoclonal antibody therapy showed a 60% reduction in long Covid symptoms over 12 weeks."
+    }
+  ]
+}

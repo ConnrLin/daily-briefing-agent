@@ -1,0 +1,48 @@
+{
+  "description": "Records the opening/closing style used in recent briefing sessions to ensure variety.",
+  "sessions": [
+    {
+      "date": "2026-05-12",
+      "opening_style": "calendar-anchor",
+      "opening_fragment": "Three things before nine AM.",
+      "closing_style": "action-list",
+      "closing_fragment": "Three things to get done before noon."
+    },
+    {
+      "date": "2026-05-13",
+      "opening_style": "news-hook",
+      "opening_fragment": "The PSD3 draft leaked overnight — here's what it means for your day.",
+      "closing_style": "encouragement",
+      "closing_fragment": "Busy one. You've got this."
+    },
+    {
+      "date": "2026-05-14",
+      "opening_style": "time-urgency",
+      "opening_fragment": "Two hard deadlines by two PM — let's go.",
+      "closing_style": "tomorrow-preview",
+      "closing_fragment": "Stripe lunch is tomorrow — worth a quick prep tonight."
+    },
+    {
+      "date": "2026-05-15",
+      "opening_style": "entity-spotlight",
+      "closing_style": "single-focus",
+      "opening_fragment": "Your entire day orbits one thing: Cobalt's payments platform is now publicly GA, with four billion dollars in beta volume announced this morning.",
+      "closing_fragment": "Right now, the single most important thing is nailing the nine AM roadmap review, because every conversation today builds on it."
+    }
+  ],
+  "available_opening_styles": [
+    "calendar-anchor",
+    "news-hook",
+    "time-urgency",
+    "entity-spotlight",
+    "question-hook",
+    "conflict-alert"
+  ],
+  "available_closing_styles": [
+    "action-list",
+    "encouragement",
+    "tomorrow-preview",
+    "single-focus",
+    "time-check"
+  ]
+}

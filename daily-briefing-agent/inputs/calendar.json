@@ -1,0 +1,117 @@
+{
+  "date": "2026-05-15",
+  "timezone": "America/Los_Angeles",
+  "events": [
+    {
+      "id": "cal_001",
+      "title": "Team standup",
+      "start": "2026-05-15T08:30:00-07:00",
+      "end": "2026-05-15T09:00:00-07:00",
+      "location": "Zoom",
+      "attendees": ["payments-platform@cobaltlabs.com"],
+      "is_recurring": true,
+      "description": "Daily team standup."
+    },
+    {
+      "id": "cal_002",
+      "title": "Q2 roadmap review — Payments",
+      "start": "2026-05-15T09:00:00-07:00",
+      "end": "2026-05-15T10:30:00-07:00",
+      "location": "SF Office, Maple Room",
+      "attendees": ["jordan@cobaltlabs.com", "priya@cobaltlabs.com", "engineering-leads@cobaltlabs.com"],
+      "is_recurring": false,
+      "description": "Walk through Q2 commitments. Jordan owns the agenda."
+    },
+    {
+      "id": "cal_003",
+      "title": "1:1 with Priya Sharma (VP Eng)",
+      "start": "2026-05-15T10:30:00-07:00",
+      "end": "2026-05-15T11:00:00-07:00",
+      "location": "Maple Room",
+      "attendees": ["jordan@cobaltlabs.com", "priya@cobaltlabs.com"],
+      "is_recurring": true,
+      "description": "Weekly 1:1."
+    },
+    {
+      "id": "cal_004",
+      "title": "Focus block — draft payments launch comms",
+      "start": "2026-05-15T11:00:00-07:00",
+      "end": "2026-05-15T12:00:00-07:00",
+      "location": "",
+      "attendees": ["jordan@cobaltlabs.com"],
+      "is_recurring": false,
+      "description": "Self-scheduled focus time."
+    },
+    {
+      "id": "cal_005",
+      "title": "Lunch with Sam Reyes (Stripe Partnerships)",
+      "start": "2026-05-15T12:00:00-07:00",
+      "end": "2026-05-15T13:00:00-07:00",
+      "location": "Souvla, Hayes Valley",
+      "attendees": ["jordan@cobaltlabs.com", "sam.reyes@stripe.com"],
+      "is_recurring": false,
+      "description": "Quarterly catchup. Sam is bringing Jess Park, their new partner team lead."
+    },
+    {
+      "id": "cal_006",
+      "title": "Quick call with Maya",
+      "start": "2026-05-15T13:00:00-07:00",
+      "end": "2026-05-15T13:30:00-07:00",
+      "location": "Phone",
+      "attendees": ["jordan@cobaltlabs.com"],
+      "is_recurring": false,
+      "description": "Family call — Mom's birthday planning."
+    },
+    {
+      "id": "cal_007",
+      "title": "Customer interview — ACME Bank product team",
+      "start": "2026-05-15T13:15:00-07:00",
+      "end": "2026-05-15T14:00:00-07:00",
+      "location": "Zoom",
+      "attendees": ["jordan@cobaltlabs.com", "research@cobaltlabs.com", "pm-team@acmebank.com"],
+      "is_recurring": false,
+      "description": "Discovery interview on multi-rail payments."
+    },
+    {
+      "id": "cal_008",
+      "title": "Board prep with Alex Wong (CEO)",
+      "start": "2026-05-15T14:00:00-07:00",
+      "end": "2026-05-15T15:00:00-07:00",
+      "location": "CEO Office",
+      "attendees": ["jordan@cobaltlabs.com", "alex@cobaltlabs.com"],
+      "is_recurring": false,
+      "description": "Walk through payments revenue slides for Monday's board meeting."
+    },
+    {
+      "id": "cal_009",
+      "title": "Compliance sync — EU PSD3 implications",
+      "start": "2026-05-15T15:00:00-07:00",
+      "end": "2026-05-15T16:00:00-07:00",
+      "location": "Zoom",
+      "attendees": ["jordan@cobaltlabs.com", "rahul@cobaltlabs.com", "legal@cobaltlabs.com"],
+      "is_recurring": false,
+      "description": "Rahul will walk through final PSD3 text and what it means for our SCA flow."
+    },
+    {
+      "id": "cal_010",
+      "title": "Competitive teardown — Lyra Finance v3 SDK",
+      "start": "2026-05-15T16:00:00-07:00",
+      "end": "2026-05-15T16:30:00-07:00",
+      "location": "Cedar Room",
+      "attendees": ["jordan@cobaltlabs.com", "product-team@cobaltlabs.com"],
+      "is_recurring": false,
+      "description": "Internal review of Lyra's latest SDK release."
+    },
+    {
+      "id": "cal_011",
+      "title": "Personal appointment",
+      "start": "2026-05-15T17:00:00-07:00",
+      "end": "2026-05-15T18:00:00-07:00",
+      "location": "Private",
+      "attendees": ["jordan@cobaltlabs.com"],
+      "is_recurring": true,
+      "visibility": "private",
+      "description": "Marked private — do not surface details."
+    }
+  ]
+}
